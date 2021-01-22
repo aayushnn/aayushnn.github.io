@@ -3,8 +3,11 @@
     "",
     "\\docs",
     "\\docs\\assets",
-    "\\docs\\assets\\img"
+    "\\docs\\assets\\img",
+    "\\docs\\php",
+    "\\src",
+    "\\src\\pug"
   ],
-  "SelectedNode": "\\docs\\css",
+  "SelectedNode": "\\docs\\assets\\img\\old-masthead.jpg",
   "PreviewInSolutionExplorer": false
 }
