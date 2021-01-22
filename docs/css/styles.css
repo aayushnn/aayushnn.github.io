@@ -10171,3 +10171,24 @@ a.button1:hover {
         margin: 0.4em auto;
     }
 }
+
+/* Contact Form */
+.form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+    form .submit:hover {
+        background-color: #f44336;
+        cursor: pointer;
+    }
+

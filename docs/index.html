@@ -44,15 +44,6 @@
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5">Avid Traveler. Passionate Developer . Music Enthusiast. </p>
                         <ul class="list-inline">
-                            <!--<li class="list-inline-item">
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-    </li>
-    <li class="list-inline-item">
-        <a class="btn btn-light btn-xl js-scroll-trigger">Light</a>
-    </li>
-    <li class="list-inline-item">
-        <a class="btn btn-light btn-xl js-scroll-trigger">Light</a>
-    </li>-->
                             <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/aayushnanda/" target=”_blank” class="btn btn-xl button1 js-scroll-trigger">LinkedIn</a>
                             </li>
@@ -70,56 +61,6 @@
                 </div>
             </div>
         </header>
-        <!-- Extra-->
-        <!--<section class="page-section bg-primary" id="extra">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Hey there!</h2>
-                        <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">...</p>-->
-                        <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>-->
-                    <!--</div>
-                </div>
-            </div>
-        </section>-->
-        <!-- Services-->
-        <!--<section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">
@@ -181,13 +122,6 @@
                 </div>
             </div>
         </div>
-        <!-- Call to action-->
-        <!--<section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
-            </div>
-        </section>-->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -197,16 +131,31 @@
                         <hr class="divider my-4" />
                         <p class="text-muted mb-5">Need to get in touch with me? Fill out the information below and I will get back to you as soon as possible!</p>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                    <div class="col-lg-8 text-center">
+                        <div class="contact-form">
+                            <form id="contact-form" method="post" action="php/contact-form-handler.php">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name" required />
+                                <br />
+                                <input name="name" type="text" class="form-control" placeholder="Your Email" required />
+                                <br />
+
+                                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                                <br />
+
+                                <input type="submit" class="form-control submit" value="SEND MESSAGE" />
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                    <!--<div class="row justify-content-center">
+    <div class="col-lg-4 text-center">-->
+                    <!--<i class="fas fa-envelope fa-3x mb-3 text-muted"></i>-->
+                    <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                    <!--<a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>-->
+                    <!--</div>
+    </div>-->
+                </div>
+</section>
         <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Copyright © Aayush Nanda</div></div>
