@@ -20,6 +20,13 @@
     }
   });
 
+  //iframe
+  var iframe = $("#iframe"); 
+var newWindow = window.open(iframe.attr(src), 'Dynamic Popup', 'height=' + iframe.height() + ', width=' + iframe.width() + 'scrollbars=auto, resizable=no, location=no, status=no');
+newWindow.document.write(iframe[0].outerHTML);
+newWindow.document.close();
+iframe[0].outerHTML = ''; // to remove iframe in page.
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
