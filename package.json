@@ -39,11 +39,13 @@
     },
     "dependencies": {
         "bootstrap": "5.0.0",
-        "socket.io": "^3.1.0"
+        "eazy-logger": "^4.0.1",
+        "socket.io": "^4.8.1",
+        "ws": "^7.5.10"
     },
     "devDependencies": {
         "autoprefixer": "10.0.1",
-        "browser-sync": "3.0.3",
+        "browser-sync": "^3.0.3",
         "chokidar": "3.4.3",
         "concurrently": "5.3.0",
         "postcss": "8.2.13",
